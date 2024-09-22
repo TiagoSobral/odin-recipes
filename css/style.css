@@ -1,0 +1,45 @@
+
+/* Homepage - yellow tint background with bronw color for the letters.*/
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(85, 57, 42);
+    background-color: hsl(38, 92%, 85%);
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.link{
+    list-style-type: none;
+    color: rgb(108, 73, 53);
+}
+
+/* Bellow is to have the bullet points as circles. */
+
+.cheesecake-ingredients, 
+.butter-chicken-ingredients,
+.carbonara-ingredients {
+    list-style-type: circle;
+    text-align: center;
+}
+
+/* Center the link to home page and change its color */
+
+.button{
+    color: rgb(128, 23, 23);
+    text-align: center;
+} 
+
+.link .homepage{
+    background-color: hsl(0, 100%, 95%);
+    font-size: x-large;
+}
+
+.cheesecake-steps,
+.carbonara-steps,
+.butter-chicken-steps{
+    text-align: center;
+}
+
