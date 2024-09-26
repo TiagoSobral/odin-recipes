@@ -27,15 +27,16 @@ a:link{
 
 /* Center the link to home page and change its color */
 
-.button{
+.homepage{
+    display: block;
     color: rgb(128, 23, 23);
+    font-size: 18px;
     text-align: center;
+    padding: 10px 20px;
+    margin: auto;
+    border-style: groove;
+    background-color: rgb(200, 184, 164);
 } 
-
-.link .homepage{
-    background-color: hsl(0, 100%, 95%);
-    font-size: x-large;
-}
 
 .cheesecake-steps,
 .carbonara-steps,
