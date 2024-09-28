@@ -1,5 +1,5 @@
 
-/* Homepage - yellow tint background with bronw color for the letters.*/
+/* Homepage and all pages with yellow tint background with bronw color for the letters.*/
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -7,14 +7,98 @@ body{
     background-color: hsl(38, 92%, 85%);
 }
 
+/* ALL INDEX PAGE */
+
+.body-homepage{
+    text-align: center;
+}
+
+/* Odin Recipe title with logo behind*/
+
+.title{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: Helvetica, Tahoma;
+}
+
+.recipe-image{
+    display: block;
+    margin: 1px auto;
+    border: 10px;
+    border-color: black;
+    border-style: solid;
+}
+
+/* Broad style of the links and removing underline 
+and in the future remove the purple color*/
+
+.link, .title{
+    list-style-type: none;
+    color: rgb(108, 73, 53);
+    text-align: center;
+}
+
 a:link{
     text-decoration: none;
 }
 
 .link{
-    list-style-type: none;
-    color: rgb(108, 73, 53);
+    display: inline-block;
+    width: 600px;
+    height: auto;
+    padding: 0px;
+
 }
+
+/* 
+Combined rules of all the links and bellow every own rule, 
+with image as background and in the future have the image darker, 
+or writting bigger and darker with shadow
+*/
+
+.link-cheesecake, 
+.link-butter-chicken, 
+.link-carbonara{
+    display: inline-block;
+    border-style: double;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+}
+
+.link-cheesecake{
+    padding-left: 212px;
+    padding-right: 212px;
+    background-image: url(https://drivemehungry.com/wp-content/uploads/2022/07/strawberry-cheesecake-11-500x500.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-blend-mode: soft-light;
+}
+
+.link-butter-chicken{
+    display: inline-block;
+    border-style: double;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-image: url(https://thehappyfoodie.co.uk/wp-content/uploads/2023/03/Butter_Chicken.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-blend-mode: soft-light;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.link-carbonara{
+    padding-left: 206px;
+    padding-right: 206px;
+    background-image: url(https://www.recipetineats.com/tachyon/2023/01/Carbonara_6a.jpg?resize=900%2C1125&zoom=1);
+    background-size: 100%;
+    background-position: center;
+    background-blend-mode: soft-light;
+
+}
+
 
 /* Bellow is to have the bullet points as circles. */
 
@@ -27,7 +111,7 @@ a:link{
 
 /* Center the link to home page and change its color */
 
-.homepage{
+.homepage-button{
     display: block;
     color: rgb(128, 23, 23);
     font-size: 18px;
