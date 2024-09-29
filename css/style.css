@@ -5,6 +5,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(85, 57, 42);
     background-color: hsl(38, 92%, 85%);
+    margin-left: 30px;
 }
 
 /* ALL INDEX PAGE */
@@ -100,31 +101,48 @@ or writting bigger and darker with shadow
 }
 
 
-/* Bellow is to have the bullet points as circles. */
+/* Bellow is to have the bullet points as circles, bottom border and darken background */
 
 .cheesecake-ingredients, 
 .butter-chicken-ingredients,
-.carbonara-ingredients {
+.carbonara-ingredients, 
+.cheesecake-steps,
+.carbonara-steps,
+.butter-chicken-steps{
+    border-bottom-style: solid;
+    border-width: 2px;
+    padding: 5px;
+    margin-bottom: -10px;
+}
+
+.cheesecake-ingredients-list,
+.carbonara-ingredients-list,
+.butter-chicken-ingredients-list{
+    background-color: rgba(88, 75, 68, 0.173);
     list-style-type: circle;
-    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.step-list{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(88, 75, 68, 0.173);
 }
 
 /* Center the link to home page and change its color */
 
 .homepage-button{
-    display: block;
+    display: inline-block;
+    align-items: center;
     color: rgb(128, 23, 23);
     font-size: 18px;
-    text-align: center;
     padding: 10px 20px;
     margin: auto;
-    border-style: groove;
     background-color: rgb(200, 184, 164);
 } 
 
-.cheesecake-steps,
-.carbonara-steps,
-.butter-chicken-steps{
-    text-align: center;
-}
+
+/* Cheesecake page alterations such as margins and borders for ingredients and steps */
 
